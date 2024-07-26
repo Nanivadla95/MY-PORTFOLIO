@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nagnath Vadla</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white
+    }
+
+    nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.01rem;
+    }
+
+    main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+        ;
+
+    }
+
+    .firstSection>div {
+        width: 30%;
+
+    }
+
+    .leftSection {
+        font-size: 3rem;
+    }
+    .leftSection .buttons{
+        padding: 50px 0;
+    }
+
+    .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .rightSection img {
+        width: 80%;
+
+    }
+
+    .purple {
+        color: rgb(170, 108, 228);
+    }
+
+    .text-gray {
+        color: gray;
+
+    }
+
+    #element {
+        color: rgb(170, 108, 228);
+    }
+
+    .secondSection {
+        max-width: 86vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .secondSection h1 {
+        font-size: 1.9rem;
+    }
+
+    .secondSection .box {
+        background: white;
+        width: 86vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+
+    }
+
+    .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 108px;
+    }
+
+    .image-top {
+        width: 23px;
+        position: relative;
+        top: -37px;
+        left: -9px;
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+    }
+
+    .footer {
+        background-color: #0e0e1a;
+
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+
+    .footer {
+        list-style: none;
+    }
+
+    .footer>div {
+        width: 223px;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+    @media screen and (max-width: 2000px){
+        body{
+            background-color: red;
+        }
+        .box {
+            flex-direction: column;
+        }
+        .secondSection .vertical{
+            height: unset;
+        }
+        .vertical-title,.vertical-desc{
+            left: 45px
+        }
+        .secondSection .box {
+            width: 50vw;
+        }
+        nav {
+            flex-direction: column;
+        }
+    }
+        .firstSection{
+            flex-direction: column-reverse;
+        }
+    
+</style>
+
+<head />
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nagnath Vadla</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li><a href="/">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+              <div>Hi, My name is <span class="purple">Nagnath</span></div>
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <a href="Nagnath Resume.pdf"></a>
+                    <button class="btn">Visit Github</button>
+                    <a href="http://www.github.com/nanivadla95"></a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="DS.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.jpeg" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        I am a proficient HTML developer with expertise in crafting responsive 
+                         and accessible web pages. My skills include creating clean, well-structured code 
+                         and ensuring compatibility across various browsers and devices. I am dedicated
+                         to delivering user-friendly and visually appealing websites that meet modern web standards.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Node.jpeg" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer(2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        As a Node.js developer, you specialize in building efficient, scalable, and high-performance server-side
+                         applications using JavaScript. With a strong understanding of asynchronous programming and 
+                         event-driven architecture, you are adept at creating APIs, working with databases, and integrating various 
+                         services to develop robust web applications. Your expertise in Node.js enables you to deliver reliable and 
+                         fast server-side solutions for modern web development needs.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="web.jpeg" alt="">
+                    <div class="vertical-title">
+                        Web Developer(2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        As a skilled web developer with a passion for creating dynamic and user-friendly websites.
+                         With expertise in HTML, CSS, JavaScript, and various web development frameworks, when delivers 
+                         high-quality, responsive designs and efficient code. Known for problem-solving abilities and attention 
+                         to detail, That consistently meets project deadlines and exceeds client expectations. Dedicated to continuous 
+                         learning and staying updated with the latest industry trends, It is committed to developing innovative web 
+                         solutions that enhance user experiences and drive business success.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Python.jpeg" alt="">
+                    <div class="vertical-title">
+                        Python Developer(2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        I am a dedicated Python developer with a strong
+                         background in designing and implementing robust software solutions.
+                         My expertise spans various domains, including web development, data analysis, and
+                         automation. With a deep understanding of Python's syntax, libraries, and frameworks,
+                         I am skilled at creating efficient and scalable applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.jpeg" alt="">
+                    <div class="vertical-title">
+                        Java Developer(2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        A Java developer specializes in using the Java programming language to create a wide range of 
+                         applications, from enterprise-level systems and mobile apps to web applications and embedded systems.
+                         Java's platform independence, robustness, and extensive libraries make it a popular choice for many developers and organizations.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="UI/UX.jpeg" alt="">
+                    <div class="vertical-title">
+                        UX&UI Developer(2022-24)
+                    </div>
+                    <div class="vertical-desc">
+                        As a UX/UI developer, you specialize in creating intuitive and 
+                         visually appealing user interfaces that enhance user experience.
+                         Your expertise lies in understanding user needs, designing seamless 
+                         interactions, and ensuring that applications are both functional and 
+                         aesthetically pleasing.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nagnath Vadla</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>privacy policy</li>
+                    <li>FAQ</li>
+                    <li>Accessibility</li>
+                    <li>Terms & Conditions </li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>About</li>
+                    <li>Leadship</li>
+                    <li>careers</li>
+                    <li>Help center</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>search</li>
+                    <li>Library</li>
+                    <li>Events</li>
+                    <li>Newa</li>
+                    <li>Cookies Notice</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.nagnathvadla.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI/UX Designer', 'Python Development', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+</html>
